@@ -1,0 +1,306 @@
+# Translation of Plugins - Hide/Show Post/Page Content - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Hide/Show Post/Page Content - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-07 18:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: it_IT\n"
+"Project-Id-Version: Plugins - Hide/Show Post/Page Content - Stable (latest "
+"release)\n"
+"Language-Team: Italian\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 18:18+0000\n"
+"Last-Translator: \n"
+"X-Loco-Version: 2.6.3; wp-6.1.1"
+
+#. [select-box] option: none (nor role nor user)
+#: translations.php:127
+msgctxt "Backend"
+msgid "- none -"
+msgstr "- nulla -"
+
+#. [select-box] option: default
+#: translations.php:94
+msgctxt "Backend"
+msgid "- select -"
+msgstr "- seleziona -"
+
+#. [message] problem (empty nonce) while checking the metabox data
+#: translations.php:152
+#| msgid "A security problem occurred while checking a metabox data"
+msgctxt "Backend"
+msgid "A security problem (empty nonce) occurred while checking a metabox data"
+msgstr ""
+"Si è vericato un problema di sicurezza durante la verifica dei dati di una "
+"metabox (nonce vuoto)"
+
+#. [message] problem (invalid nonce) while checking the metabox data
+#: translations.php:155
+msgctxt "Backend"
+msgid ""
+"A security problem (invalid nonce) occurred while checking a metabox data"
+msgstr ""
+"Si è vericato un problema di sicurezza durante la verifica dei dati di una "
+"metabox (nonce non valido)"
+
+#. [text] label of the action mode (i.e. hide/show) select-box control
+#: translations.php:91
+msgctxt "Backend"
+msgid "Action"
+msgstr "Azione"
+
+#. [text] label of the content control
+#: translations.php:112
+msgctxt "Backend"
+msgid "Content"
+msgstr "Contenuto"
+
+#. [text] usage examples (info page)
+#. [text] usage example 1 (info page)
+#: translations.php:39 translations.php:42
+msgctxt "Backend"
+msgid "Examples"
+msgstr "Esempi"
+
+#. [text] description of the usage example 2 (info page)
+#: translations.php:52
+msgctxt "Backend"
+msgid "Hide content to logged users"
+msgstr "Nasconde il contenuto agli utenti connessi"
+
+#. [text] description of the usage example 1 (info page)
+#: translations.php:45
+msgctxt "Backend"
+msgid "Hide content to unlogged users"
+msgstr "Nasconde il contenuto agli utenti anonimi"
+
+#. [select-box] option: hide to guests
+#: translations.php:97
+msgctxt "Backend"
+msgid "hide to guest users"
+msgstr "nascondi agli utenti anonimi"
+
+#. [select-box] option: hide to logged
+#: translations.php:100
+#| msgid "hide to logged users"
+msgctxt "Backend"
+msgid "hide to logged in users"
+msgstr "nascondi agli utenti loggati"
+
+#. [text] title of the Elementor widget
+#: translations.php:88
+msgctxt "Backend"
+msgid "Hide/Show Content"
+msgstr "Nascondi/mostra il contenuto"
+
+#. [text] title of the info page
+#: translations.php:27
+msgctxt "Backend"
+msgid "Hide/Show Post/Page Content"
+msgstr "Hide/Show Post/Page Content"
+
+#. [text] placeholder of the content control
+#: translations.php:118
+msgctxt "Backend"
+msgid "place your content here..."
+msgstr "inserisci qui il contenuto..."
+
+#. [select-box] option: users role
+#: translations.php:130
+msgctxt "Backend"
+msgid "role"
+msgstr "ruolo"
+
+#. [text] label of the role control
+#: translations.php:136
+msgctxt "Backend"
+msgid "Role(s)"
+msgstr "Ruolo/i"
+
+#. [select-box] invalid option
+#: translations.php:109
+msgctxt "Backend"
+msgid "select a valid action"
+msgstr "seleziona un'azione valida"
+
+#. [text] label of the selector control
+#: translations.php:121
+msgctxt "Backend"
+msgid "Selector"
+msgstr "Selettore"
+
+#. [text] description of the usage example 6 (info page)
+#: translations.php:80
+msgctxt "Backend"
+msgid "Show content only to a specific user"
+msgstr "Mostra il contenuto solo ad uno specifico utente"
+
+#. [text] description of the usage example 4 (info page)
+#: translations.php:66
+msgctxt "Backend"
+msgid "Show content only to logged users"
+msgstr "Mostra il contenuto solo agli utenti connessi"
+
+#. [text] description of the usage example 5 (info page)
+#: translations.php:73
+msgctxt "Backend"
+msgid "Show content only to logged users with the role of subscriber"
+msgstr ""
+"Mostra il contenuto solo agli utenti loggati e con il ruolo di "
+"sottoscrittore (subscriber)"
+
+#. [text] description of the usage example 3 (info page)
+#: translations.php:59
+msgctxt "Backend"
+msgid "Show content only to unlogged users"
+msgstr "Mostra il contenuto solo agli utenti anonimi"
+
+#. [select-box] option: show to guests
+#: translations.php:103
+msgctxt "Backend"
+msgid "show to guest users"
+msgstr "mostra agli utenti anonimi"
+
+#. [select-box] option: show to logged
+#: translations.php:106
+#| msgid "show to logged users"
+msgctxt "Backend"
+msgid "show to logged in users"
+msgstr "mostra agli utenti loggati"
+
+#. [text] description of the content control
+#: translations.php:115
+msgctxt "Backend"
+msgid "The content to be hidden or displayed depending on the selected action"
+msgstr ""
+"Il contenuto da nascondere o mostrare a seconda dell'azione selezionata"
+
+#. [text] description of the paragraph Usage (info page)
+#: translations.php:36
+msgctxt "Backend"
+msgid ""
+"The content to be hidden or displayed must be included in a <em>"
+"shortcode</em> tagged as <strong>{TAG}</strong>."
+msgstr ""
+"Il contenuto da nascondere o mostrare deve essere incluso in uno <em>"
+"shortcode</em> il cui tag è <strong>{TAG}</strong>."
+
+#. [text] content of the usage example 5 (info page)
+#: translations.php:76
+msgctxt "Backend"
+msgid "This content is displayed only to 'Subscribers'."
+msgstr "Questo contenuto è mostrato solo ai 'Sottoscrittori'."
+
+#. [text] content of the usage example 4 (info page)
+#: translations.php:69
+msgctxt "Backend"
+msgid "This content is displayed only to logged users."
+msgstr "Questo contenuto è mostrato solo agli utenti connessi."
+
+#. [text] content of the usage example 6 (info page)
+#: translations.php:83
+msgctxt "Backend"
+msgid "This content is displayed only to the user whose username is 'foobar'."
+msgstr ""
+"Questo contenuto è mostrato solo all'utente il cui nome utente è 'foobar'."
+
+#. [text] content of the usage example 3 (info page)
+#: translations.php:62
+msgctxt "Backend"
+msgid "This content is displayed only to users not logged."
+msgstr "Questo contenuto è mostrato solo agli utenti anonimi."
+
+#. [text] content of the usage example 2 (info page)
+#: translations.php:55
+msgctxt "Backend"
+msgid "This content is hidden only to logged users."
+msgstr "Questo contenuto è nascosto solo agli utenti connessi."
+
+#. [text] content of the usage example 1 (info page)
+#: translations.php:48
+msgctxt "Backend"
+msgid "This content is hidden only to users not logged."
+msgstr "Questo contenuto è nascosto solo agli utenti anonimi."
+
+#. [text] title of the paragraph Usage (info page)
+#: translations.php:33
+msgctxt "Backend"
+msgid "Usage"
+msgstr "Uso"
+
+#. [text] description of the selector control
+#: translations.php:124
+msgctxt "Backend"
+msgid "Used if Action is set 'to logged in users'"
+msgstr "Usato se l'Azione è impostata a 'utenti loggati'"
+
+#. [text] description of the role control
+#: translations.php:139
+msgctxt "Backend"
+msgid "Used if Selector is set to 'role'"
+msgstr "Usata se il Selettore è impostato a 'ruolo'"
+
+#. [text] description of the user control
+#: translations.php:145
+msgctxt "Backend"
+msgid "Used if Selector is set to 'user'"
+msgstr "Usata se il Selettore è impostato a 'utente'"
+
+#. [select-box] option: user
+#: translations.php:133
+msgctxt "Backend"
+msgid "user"
+msgstr "utente"
+
+#. [text] label of the user control
+#: translations.php:142
+msgctxt "Backend"
+msgid "User(s)"
+msgstr "Utente/i"
+
+#. [text] subtitle of the info page
+#: translations.php:30
+msgctxt "Backend"
+msgid ""
+"You can hide or show part of the content of <strong>public</strong> posts or "
+"pages to users that are logged or not."
+msgstr ""
+"Puoi nascondere o mostrare agli utenti connessi o meno parte del contenuto "
+"di articoli e pagine <strong>pubblici</strong>."
+
+#. [message] the user has insufficient rights to save the metabox data
+#: translations.php:158
+#| msgid "You're not authorized to modify metabox content"
+msgctxt "Backend"
+msgid "You're not authorized to modify a metabox data"
+msgstr "Non sei autorizzato a modificare il contenuto di una metabox"
+
+#. Description of the plugin
+msgid ""
+"Hide or show a selected content of public posts/pages depending on whether "
+"the user is logged or not. Compatible with Elementor."
+msgstr ""
+"Nasconde o mostra il contenuto selezionato di articoli/pagine pubblici a "
+"seconda se gli utenti sono connessi o no. Compatibile con Elementor."
+
+#. Name of the plugin
+msgid "Hide/Show Post/Page Content"
+msgstr "Hide/Show Post/Page Content"
+
+#. Author URI of the plugin
+msgid "https://sosidee.com"
+msgstr "https://sosidee.com"
+
+#. Author of the plugin
+msgid "SOSidee.com srl"
+msgstr "SOSidee.com srl"
+
+#. User role for subscribers.
+#: translations.php:162
+msgctxt "User role"
+msgid "Translator"
+msgstr "Traduttore"
